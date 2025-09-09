@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyansh Parmar - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+      scroll-behavior: smooth;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    section {
+      padding: 100px 20px 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+      margin-bottom: 15px;
+      font-size: 30px;
+    }
+    p, li {
+      font-size: 18px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      font-size: 16px;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 16px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      background: #00aaff;
+      color: #fff;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background: #008ecc;
+    }
+    .contact-icons a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 28px;
+      color: #333;
+      transition: color 0.3s;
+    }
+    .contact-icons a:hover {
+      color: #00aaff;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Priyansh Parmar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero" style="text-align:center; padding:120px 20px 80px 20px;">
+    <h2 style="font-size: 36px;">Engineer To Be</h2>
+    <p style="font-size:20px;">B.Tech (IT) | Software Developer | QA Tester</p>
+    <a href="Priyansh_parmar_QA.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech (Information Technology) fresher with strong foundations in **software development, QA testing, and database management**. 
+      With a keen interest in Artificial Intelligence and automation, I actively explore modern technologies to keep myself industry-ready. 
+      I believe in continuous learning, adaptability, and contributing effectively to projects that merge innovation with real-world impact.
+    </p>
+    <ul>
+      <li>✔ Strong problem-solving and analytical skills.</li>
+      <li>✔ Passionate about QA and ensuring high-quality software.</li>
+      <li>✔ Enthusiastic about cloud platforms, automation, and DevOps basics.</li>
+      <li>✔ Team player with good communication and collaboration skills.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Java</div>
+      <div class="card">Python</div>
+      <div class="card">C++</div>
+      <div class="card">SQL & Database Design</div>
+      <div class="card">Manual & Functional Testing</div>
+      <div class="card">Bug Reporting & Documentation</div>
+      <div class="card">AI & Machine Learning Basics</div>
+      <div class="card">Git, GitHub & Agile</div>
+      <div class="card">API Testing (Postman basics)</div>
+      <div class="card">Cloud Fundamentals (AWS/GCP basics)</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Online Quiz App</h3>
+        <p>Java + MySQL with CRUD operations and integrated test cases for validation.</p>
+      </div>
+      <div class="card">
+        <h3>Library Management System</h3>
+        <p>CRUD features, bug reports, functional testing with clear documentation.</p>
+      </div>
+      <div class="card">
+        <h3>Spam Detection (AI Mini Project)</h3>
+        <p>Built a machine learning model to classify spam emails using Python.</p>
+      </div>
+      <div class="card">
+        <h3>Manual Testing – Netflix</h3>
+        <p>Performed manual test cases on login, movie playback, and search results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="text-align:center;">
+    <h2>Contact</h2>
+    <div class="contact-icons">
+      <a href="mailto:11priyanshparmar@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/priyanshparmar118" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/priyanshparmar118" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Priyansh Parmar. All rights reserved.
+  </footer>
+</body>
+</html>
