@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyansh Parmar - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #222;
+      margin-bottom: 15px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      background: #00aaff;
+      color: #fff;
+    }
+    .btn:hover {
+      background: #008ecc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Priyansh Parmar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero" style="text-align:center; padding:80px 20px;">
+    <h2>Engineer To Be</h2>
+    <p>B.Tech (IT) | Software Developer | QA Tester</p>
+    <a href="Priyansh_parmar_QA.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech (Information Technology) fresher with skills in software development,
+      manual testing, SQL, and AI basics. My goal is to contribute to innovative projects
+      and build my career as a developer and QA engineer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">Java</div>
+      <div class="card">Python</div>
+      <div class="card">C++</div>
+      <div class="card">SQL</div>
+      <div class="card">Manual Testing</div>
+      <div class="card">Bug Reporting</div>
+      <div class="card">AI Basics</div>
+      <div class="card">Git & Agile</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Online Quiz App</h3>
+        <p>Java + MySQL with CRUD operations and test cases.</p>
+      </div>
+      <div class="card">
+        <h3>Library Management System</h3>
+        <p>CRUD features, bug reports, functional testing.</p>
+      </div>
+      <div class="card">
+        <h3>Spam Detection (AI Mini Project)</h3>
+        <p>ML algorithm to classify spam emails.</p>
+      </div>
+      <div class="card">
+        <h3>Manual Testing – Netflix</h3>
+        <p>Tested login, movie playback, and search results manually.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="text-align:center;">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:11priyanshparmar@gmail.com">11priyanshparmar@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/priyanshparmar118" target="_blank">github.com/priyanshparmar118</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/priyanshparmar118" target="_blank">linkedin.com/in/priyanshparmar118</a></p>
+  </section>
+
+  <footer>
+    © 2025 Priyansh Parmar. All rights reserved.
+  </footer>
+</body>
+</html>
